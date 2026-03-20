@@ -1,8 +1,10 @@
 import React from "react";
 
-const Section = ({ children }) => {
+const Section = ({ children, className }) => {
     return (
-        <div className="flex items-center h-full w-full justify-center px-5 md:px[40px] lg:px-20">
+        <div
+            className={`flex items-center h-full w-full justify-center ${className}`}
+        >
             {children}
         </div>
     );

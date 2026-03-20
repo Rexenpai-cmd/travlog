@@ -28,8 +28,8 @@ const Header = () => {
     }
 
     return (
-        <div className="fixed z-5 top-0 right-0 left-0 w-full flex items-center">
-            <div className="px-5 md:px-10 lg:px-20 w-full flex items-center">
+        <div className="fixed z-50 top-0 right-0 left-0 w-full flex items-center">
+            <div className="px-5 md:px-10 lg:px-20 w-full flex  bg-white items-center">
                 <a href="/">
                     <img
                         src={travlog}
@@ -40,7 +40,7 @@ const Header = () => {
                     />
                 </a>
                 <nav
-                    className={`${menu ? "flex" : "hidden"} fixed top-30 z-10 left-0 bottom-0 right-0 lg:flex lg:static lg:mx-auto`}
+                    className={`${menu ? "flex" : "hidden"} fixed top-24 z-10 left-0 bottom-0 right-0 bg-white lg:flex lg:static lg:mx-auto`}
                 >
                     <div className="relative flex items-center m-auto flex-col lg:flex-row">
                         {navigation.map((item) => (
