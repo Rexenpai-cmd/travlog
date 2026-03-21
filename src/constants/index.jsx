@@ -12,6 +12,10 @@ import destination1 from "../assets/destination/destination-image1.png";
 import destination2 from "../assets/destination/desination-image2.png";
 import destination3 from "../assets/destination/desination-image3.png";
 
+import feature1 from "../assets/svg/location-white.svg";
+import feature2 from "../assets/svg/calendar.svg";
+import feature3 from "../assets/svg/coupon.svg";
+
 export const navigation = [
     {
         id: "1",
@@ -120,5 +124,27 @@ export const count = [
     {
         count: "2k+",
         label: "Happy Customer",
+    },
+];
+
+export const features = [
+    {
+        bg: "bg-orange",
+        svg: feature1,
+        title: "We offer best services",
+        text: "Lorem Ipsum is not simply random text",
+    },
+    {
+        bg: "bg-yellow",
+        svg: feature2,
+        title: "Schedule your trip",
+        text: "It has roots in a piece of classical",
+        withBorder: true,
+    },
+    {
+        bg: "bg-secondary",
+        svg: feature3,
+        title: "Get discounted coupons",
+        text: "Lorem Ipsum is not simply random text",
     },
 ];

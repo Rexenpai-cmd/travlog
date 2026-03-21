@@ -1,5 +1,6 @@
 import Destination from "./components/Destination";
 import Discover from "./components/Discover";
+import Features from "./components/Features";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import TravelPoint from "./components/TravelPoint";
@@ -12,6 +13,7 @@ function App() {
                 <Hero />
                 <Discover />
                 <TravelPoint />
+                <Features />
             </div>
         </>
     );

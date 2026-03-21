@@ -15,7 +15,7 @@ const TravelPoint = () => {
                     className="self-center mb-15 lg:mb-0"
                 />
                 <div className="flex items-center gap-10 justify-center w-full flex-col">
-                    <div className="flex flex-col items-center gap-5 lg:mb-0 lg:items-start lg:mr-15 justify-center">
+                    <div className="flex flex-col items-center gap-2.5 lg:mb-0 lg:items-start lg:mr-15 justify-center">
                         <Heading>Travel point</Heading>
                         <SubHeading>
                             We help you find your dream location

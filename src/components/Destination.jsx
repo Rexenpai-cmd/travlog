@@ -13,7 +13,7 @@ const Destination = () => {
         <Section>
             <div className="flex w-full flex-col items-center justify-center">
                 <div className="relative flex w-full items-center justify-center flex-col lg:justify-between lg:flex-row">
-                    <div className="flex flex-col items-center mb-12.5 lg:mb-0 lg:items-start justify-center">
+                    <div className="flex flex-col items-center gap-2.5 mb-12.5 lg:mb-0 lg:items-start justify-center">
                         <Heading>Top destination</Heading>
                         <SubHeading className="text-center">
                             Explore top destination
