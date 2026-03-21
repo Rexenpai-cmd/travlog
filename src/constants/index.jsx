@@ -4,6 +4,14 @@ import expedia from "../assets/companies/expedia.png";
 import orbitz from "../assets/companies/orbitz.png";
 import tripadvisor from "../assets/companies/tripadvisor.png";
 
+import service1 from "../assets/services/services1.png";
+import service2 from "../assets/services/services2.png";
+import service3 from "../assets/services/services3.png";
+
+import destination1 from "../assets/destination/destination-image1.png";
+import destination2 from "../assets/destination/desination-image2.png";
+import destination3 from "../assets/destination/desination-image3.png";
+
 export const navigation = [
     {
         id: "1",
@@ -43,6 +51,74 @@ export const companies = [
     { id: "c1", title: "Airbnb", url: airbnb },
     { id: "c2", title: "Booking.com", url: booking },
     { id: "c3", title: "Expedia", url: expedia },
-    { id: "c4", title: "Orbitz", url: orbitz },
-    { id: "c5", title: "Tripadvisor", url: tripadvisor },
+    { id: "c4", title: "Tripadvisor", url: tripadvisor },
+    { id: "c5", title: "Orbitz", url: orbitz },
+];
+
+export const categories = [
+    {
+        id: "1",
+        label: "Best Tour Guide",
+        text: "What looked like a small patch of purple grass, above five feet.",
+        img: service3,
+    },
+    {
+        id: "2",
+        label: "Easy Booking",
+        text: "Square, was moving across the sand in their direction.",
+        withShadow: true,
+        img: service2,
+    },
+    {
+        id: "3",
+        label: "Weather Forecast",
+        text: "What looked like a small patch of purple grass, above five feet.",
+        img: service1,
+    },
+];
+
+export const destination = [
+    {
+        id: "1",
+        url: destination1,
+        title: "Paradise Beach, Bantayan Island",
+        price: "550.16",
+        location: "Rome, Italy",
+        ratings: "4.8",
+    },
+    {
+        id: "2",
+        url: destination2,
+        title: "Ocean full of Colors",
+        price: "22.99",
+        location: "Maldives",
+        ratings: "4.5",
+    },
+    {
+        id: "3",
+        url: destination3,
+        title: "Mountain View, Above the Clouds",
+        price: "150.99",
+        location: "United Arab Emerites",
+        ratings: "5.0",
+    },
+];
+
+export const count = [
+    {
+        count: "500+",
+        label: "Holiday Package",
+    },
+    {
+        count: "100",
+        label: "Luxury Hotel",
+    },
+    {
+        count: "7",
+        label: "Premium Airlines",
+    },
+    {
+        count: "2k+",
+        label: "Happy Customer",
+    },
 ];
