@@ -16,6 +16,10 @@ import feature1 from "../assets/svg/location-white.svg";
 import feature2 from "../assets/svg/calendar.svg";
 import feature3 from "../assets/svg/coupon.svg";
 
+import social3 from "../assets/socials/social1.svg";
+import social2 from "../assets/socials/social2.svg";
+import social1 from "../assets/socials/social3.svg";
+
 export const navigation = [
     {
         id: "1",
@@ -146,5 +150,42 @@ export const features = [
         svg: feature3,
         title: "Get discounted coupons",
         text: "Lorem Ipsum is not simply random text",
+    },
+];
+
+export const socials = [
+    {
+        url: social1,
+        title: "Facebook",
+    },
+    {
+        url: social2,
+        title: "Instagram",
+        noBg: true,
+    },
+    {
+        url: social3,
+        title: "Twitter",
+        noBg: true,
+    },
+];
+
+export const contacts = [
+    {
+        title: "Company",
+        items: ["About", "Career", "Mobile"],
+    },
+    {
+        title: "Contact",
+        items: ["Why Travlog?", "Partner with us", "FAQ’s", "Blog"],
+    },
+    {
+        title: "Meet Us",
+        items: [
+            "+00 92 1234 56789",
+            "info@travlog.com",
+            "205. R Street, New York",
+            "BD23200",
+        ],
     },
 ];

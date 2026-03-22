@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Destination from "./components/Destination";
 import Discover from "./components/Discover";
 import Features from "./components/Features";
@@ -16,6 +17,7 @@ function App() {
                 <TravelPoint />
                 <Features />
                 <Newsletter />
+                <Contact />
             </div>
         </>
     );

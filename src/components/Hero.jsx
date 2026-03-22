@@ -20,7 +20,7 @@ const Hero = () => {
 
     return (
         <Section>
-            <div className="flex flex-col w-screen min-h-screen">
+            <div className="flex flex-col w-screen min-h-screen" id="home">
                 <div className="flex items-center pt-37.5 lg:justify-evenly flex-col-reverse lg:flex-row">
                     <div className="flex mt-12.5 lg:mt-0 items-center lg:items-start justify-center flex-col">
                         <Button className="bg-white mb-7.5 shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
