@@ -3,6 +3,7 @@ import Discover from "./components/Discover";
 import Features from "./components/Features";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Newsletter from "./components/Newsletter";
 import TravelPoint from "./components/TravelPoint";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
                 <Discover />
                 <TravelPoint />
                 <Features />
+                <Newsletter />
             </div>
         </>
     );

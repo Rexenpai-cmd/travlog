@@ -8,7 +8,10 @@ import yellowBlur from "../assets/yellow-blur.png";
 const Discover = () => {
     return (
         <Section>
-            <div className="relative flex w-full items-center flex-col lg:flex-row">
+            <div
+                className="relative flex w-full items-center flex-col lg:flex-row"
+                id="discover"
+            >
                 <div className="flex flex-col items-center gap-2.5 mb-12.5 lg:mb-0 lg:items-start lg:mr-15 justify-center">
                     <Heading>Services</Heading>
                     <SubHeading>Our top value categories for you</SubHeading>
