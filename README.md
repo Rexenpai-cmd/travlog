@@ -7,11 +7,7 @@ The original Figma design is by **UIX Design Academy**.
 - Responsive layout with Tailwind
 - Modular React components
 
-## Credits
-- **Design Owner:** UIX Design Academy (Figma)
-- **Implementation:** Rex Espina
-
 ## License
 This project is for practice and portfolio purposes.  
-All design rights belong to UIX Design Academy.  
+All design rights belong to **UIX Design Academy**.  
 Code implementation is my own work.
