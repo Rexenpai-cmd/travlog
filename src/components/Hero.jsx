@@ -45,12 +45,12 @@ const Hero = () => {
                             providing as many choices as possible{" "}
                         </p>
                         <div className="flex w-full flex-col justify-center items-stretch gap-5 md:flex-row md:items-center lg:justify-start">
-                            <Button className="bg-primart">
+                            <Button className="bg-primart hover:bg-hover-color cursor-pointer">
                                 <h6 className="text-text-light text-[14px] text-base font-semibold">
                                     Get Started
                                 </h6>
                             </Button>
-                            <Button className="bg-white border border-text-light">
+                            <Button className="bg-white border border-text-light cursor-pointer">
                                 <img src={playSvg} alt="Play Svg" />
                                 <h6 className="text-text-black text-[14px] text-base font-semibold">
                                     Watch Demo

@@ -58,7 +58,7 @@ const Header = () => {
                     <a href="" className="text-sm font-medium">
                         Log In
                     </a>
-                    <button className="h-12.5 w-28.75 rounded-full flex items-center justify-center text-text-light bg-primart">
+                    <button className="h-12.5 w-28.75 rounded-full flex items-center justify-center text-text-light bg-primart hover:bg-hover-color cursor-pointer">
                         Sign Up
                     </button>
                 </div>

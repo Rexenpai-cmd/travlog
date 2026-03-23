@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <Section>
             <div
-                className="flex relative items-center justify-center w-full flex-col gap-[64px]"
+                className="flex relative items-center justify-center w-full flex-col gap-16"
                 id="contact"
             >
                 <div className="flex items-start justify-center flex-col gap-8">
@@ -20,8 +20,8 @@ const Contact = () => {
                     </p>
                     <div className="flex items-center justify-start gap-8">
                         {socials.map((socials) => (
-                            <div
-                                className={`flex items-center justify-center ${socials.noBg ? "h-8 w-8 bg-primart rounded-full " : ""}`}
+                            <button
+                                className={`flex items-center cursor-pointer justify-center ${socials.noBg ? "h-8 w-8 bg-primart rounded-full hover:bg-hover-color " : ""}`}
                             >
                                 <a href="" className="cursor-pointer">
                                     <img
@@ -29,7 +29,7 @@ const Contact = () => {
                                         alt={socials.title}
                                     />
                                 </a>
-                            </div>
+                            </button>
                         ))}
                     </div>
                 </div>
@@ -39,14 +39,14 @@ const Contact = () => {
                             key={index}
                             className="flex items-start justify-start flex-col"
                         >
-                            <h3 className="text-text-black font-semibold text-base text-[23px] mt-[40px] md:mt-0">
+                            <h3 className="text-text-black font-semibold text-base text-[23px] mt-10 md:mt-0">
                                 {section.title}
                             </h3>
                             <ul>
                                 {section.items.map((item, i) => (
                                     <li
                                         key={i}
-                                        className="text-text-black/75 text-base text-[18px] mb-[20px] mt-[20px] md:mb-[32px] md:mt-[32px]"
+                                        className="text-text-black/75 text-base text-[18px] mb-5 mt-5 md:mb-8 md:mt-8"
                                     >
                                         <a
                                             href=""
