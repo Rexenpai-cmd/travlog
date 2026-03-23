@@ -5,6 +5,7 @@ import Features from "./components/Features";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Newsletter from "./components/Newsletter";
+import Reviews from "./components/Reviews";
 import TravelPoint from "./components/TravelPoint";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 <Discover />
                 <TravelPoint />
                 <Features />
+                <Reviews />
                 <Newsletter />
                 <Contact />
             </div>

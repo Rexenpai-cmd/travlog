@@ -20,6 +20,12 @@ import social3 from "../assets/socials/social1.svg";
 import social2 from "../assets/socials/social2.svg";
 import social1 from "../assets/socials/social3.svg";
 
+import client1 from "../assets/clients/client1.png";
+import client2 from "../assets/clients/client2.jpg";
+import client3 from "../assets/clients/client3.jpg";
+import client4 from "../assets/clients/client4.png";
+import client5 from "../assets/clients/client5.png";
+
 export const navigation = [
     {
         id: "1",
@@ -187,5 +193,43 @@ export const contacts = [
             "205. R Street, New York",
             "BD23200",
         ],
+    },
+];
+
+export const clientReviews = [
+    {
+        img: client1,
+        name: "Sarah Mitchell",
+        role: "Photographer",
+        ratings: 5,
+        text: "This app completely changed how I plan my trips! The guides are detailed and the recommendations feel really personal. I found hidden gems in Bali I would have never discovered on my own.",
+    },
+    {
+        img: client2,
+        name: "James Thornton",
+        role: "Business Analyst",
+        ratings: 5,
+        text: "Super easy to use and the itineraries are spot on. I used it for my trip to Tokyo and everything went smoothly. Honestly can't imagine traveling without it now.",
+    },
+    {
+        img: client3,
+        name: "Sofia Reyes",
+        role: "Product Manager",
+        ratings: 4,
+        text: "I love how the app organizes everything in one place. The local food recommendations alone are worth downloading it for. My trip to Paris was absolutely perfect thanks to this.",
+    },
+    {
+        img: client4,
+        name: "Sam Nguyen",
+        role: "Software Engineer",
+        ratings: 5,
+        text: "Really impressed with how accurate and up to date the travel guides are. It even warned me about a local holiday that would have ruined my plans. A must have for any traveler.",
+    },
+    {
+        img: client5,
+        name: "Amara Osei",
+        role: "Marketing Strategist",
+        ratings: 4,
+        text: "Finally a travel app that doesn't just list tourist traps. The guides feel like advice from a friend who actually lives there. Used it for my trip to Istanbul and had an amazing time.",
     },
 ];
