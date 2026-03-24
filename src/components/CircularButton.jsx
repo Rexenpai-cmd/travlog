@@ -5,7 +5,7 @@ const CircularButton = ({ className, children, onClick, disabled }) => {
         <button
             onClick={onClick}
             disabled={disabled}
-            className={`${className} flex items-center ${disabled ? "opacity-40" : ""}  justify-center rounded-full md:h-[65px] md:w-[100px] lg:w-[100px] lg:h-[80px] cursor-pointer`}
+            className={`${className} flex items-center ${disabled ? "opacity-40" : ""}  justify-center rounded-full md:h-16.25 md:w-25 lg:w-25 lg:h-20 cursor-pointer`}
         >
             {children}
         </button>
