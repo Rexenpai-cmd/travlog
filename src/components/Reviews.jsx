@@ -21,7 +21,7 @@ const Reviews = () => {
 
     return (
         <Section className="relative">
-            <div className="flex items-center z-10 justify-between gap-[56px] flex-col md:flex-row">
+            <div className="flex items-center z-10 justify-between gap-14 flex-col md:flex-row">
                 <CircularButton
                     className="hidden md:flex border border-text-black/10 bg-white hover:bg-gray-100"
                     onClick={goPrev}
@@ -39,11 +39,11 @@ const Reviews = () => {
                             Trust our clients
                         </h1>
                     </div>
-                    <div className="flex items-center justify-center w-full mt-[46px] flex-col gap-[46px]">
+                    <div className="flex items-center justify-center w-full mt-11.5 flex-col gap-11.5">
                         <img
                             src={clientReviews[currentIndex].img}
                             alt="Client Profile"
-                            className="h-[128px] w-[128px] rounded-full"
+                            className="h-32 w-32 rounded-full"
                         />
                         <h1 className="text-base text-[18px] md:text-[23px] text-text-black font-semibold">
                             <span className="font-semibold text-orange text-[20px] md:text-[28px]">
@@ -64,7 +64,7 @@ const Reviews = () => {
                         <div className="flex items-center justify-center gap-5">
                             {clientReviews.map((r, i) => (
                                 <div
-                                    className={`h-[24px] w-[24px] rounded-full ${i === currentIndex ? "bg-secondary" : "bg-text-black/5"}`}
+                                    className={`h-6 w-6 rounded-full ${i === currentIndex ? "bg-secondary" : "bg-text-black/5"}`}
                                 ></div>
                             ))}
                         </div>
@@ -80,14 +80,14 @@ const Reviews = () => {
 
                 <div className="flex md:hidden items-center justify-between w-full">
                     <CircularButton
-                        className="flex md:hidden h-[64px] w-[64px] hover:bg-gray-100 border border-text-black/10 md:border-0 bg-white"
+                        className="flex md:hidden h-16 w-16 hover:bg-gray-100 border border-text-black/10 md:border-0 bg-white"
                         onClick={goPrev}
                         disabled={currentIndex === 0}
                     >
                         <img src={prevArrow} alt="Prev" />
                     </CircularButton>
                     <CircularButton
-                        className="flex md:hidden bg-primart h-[64px] w-[64px] hover:bg-hover-color"
+                        className="flex md:hidden bg-primart h-16 w-16 hover:bg-hover-color"
                         onClick={goNext}
                         disabled={currentIndex === clientReviews.length - 1}
                     >
