@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Button from "./Button";
 import { clientReviews } from "../constants";
 import Section from "./Section";
@@ -9,15 +9,31 @@ import wave from "../assets/svg/gradient-wave.svg";
 import star from "../assets/svg/yellow-star.svg";
 
 const Reviews = () => {
-    const [currentIndex, setCurrentIndex] = useState(2);
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [lastInteraction, setLastInteraction] = useState(Date.now());
 
     function goNext() {
         setCurrentIndex((prev) => Math.min(prev + 1, clientReviews.length - 1));
+        setLastInteraction(Date.now());
     }
 
     function goPrev() {
         setCurrentIndex((prev) => Math.max(prev - 1, 0));
+        setLastInteraction(Date.now());
     }
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            const now = Date.now();
+            if (now - lastInteraction > 5000) {
+                setCurrentIndex((prev) =>
+                    prev === clientReviews.length - 1 ? 0 : prev + 1,
+                );
+            }
+        }, 3000);
+
+        return () => clearInterval(interval);
+    }, [lastInteraction]);
 
     return (
         <Section className="relative">
