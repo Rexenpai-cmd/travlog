@@ -15,6 +15,7 @@ function App() {
                 <Header />
                 <Hero />
                 <Discover />
+                <Destination />
                 <TravelPoint />
                 <Features />
                 <Reviews />

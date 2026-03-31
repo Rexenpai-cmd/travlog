@@ -103,7 +103,7 @@ export const destination = [
     {
         id: "2",
         url: destination2,
-        title: "Ocean full of Colors",
+        title: "Ocean full of Colors Maldives",
         price: "22.99",
         location: "Maldives",
         ratings: "4.5",
